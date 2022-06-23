@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+body {
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+* {
+    margin: auto;
+    padding: auto;
+    font-family: "Bebas Neue";
+}
+
+.header {
+    justify-content: space-between;
+    padding: 25px 50px 25px 50px;
+    background: white;
+    display: flex;
+}
+
+.header .logo {
+    margin-right: auto;
+    font-size: 25px;
+    font-weight: bolder;
+    color: black;
+}
+
+.header .logo i {
+    color: #006600;
+}
+
+.header .navbar a {
+    font-size: 25px;
+    color: black;
+}
+
+.header .navbar a:hover {
+    color: black;
+}
+
+.inputBox {
+    width: 500px;
+    margin: 25px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.inputBox input {
+    width: 300px;
+    height: 30px;
+    margin: 0 12px;
+    font-size: 1.2rem;
+    background: transparent;
+    border: 1px solid black;
+    border-radius: 3rem;
+    outline: none;
+}
+
+.inputBox button {
+    width: 80px;
+    height: 30px;
+    color: black;
+    font-size: 1.2rem;
+    cursor: pointer;
+    outline: none;
+    background-color: green;
+    border: none;
+    border-radius: 3px;
+}
+
+.inputBox button:hover {
+    background-color: white;
+}
+
+.head {
+    color: green;
+}
+
+.data {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.box .head {
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.box .head span {
+    font-size: 2rem;
+}
+
+.total {
+    display: flex;
+    width: 800px;
+    height: 200px;
+    justify-content: space-between;
+}
+
+.total div {
+    margin-top: 20px;
+    width: 30%;
+    height: 200px;
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+}
+
+.total div p {
+    margin: 50px 0 10px 0;
+    justify-content: space-between;
+}
+
+.total div:nth-child(1) {
+    background: #115b9c;
+    box-shadow: 0 25px 38px rgba(6, 77, 158, 0.3), 0 15px 12px rgba(3, 61, 109, 0.22);
+}
+
+.total div:nth-child(1):hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.total div:nth-child(2) {
+    background: #920404;
+    box-shadow: 0 25px 38px rgba(134, 3, 3, 0.3), 0 15px 12px rgba(163, 5, 18, 0.22);
+}
+
+.total div:nth-child(2):hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.total div:nth-child(3) {
+    background: #046107;
+    box-shadow: 0 25px 38px rgba(7, 124, 60, 0.3), 0 15px 12px rgba(5, 133, 5, 0.22);
+}
+
+.total div:nth-child(3):hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.new {
+    margin-top: 60px;
+    display: flex;
+    width: 800px;
+    height: 200px;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.new div {
+    width: 30%;
+    height: 200px;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.new div p {
+    margin: 50px 0 10px 0;
+}
+
+.new div:nth-child(1) {
+    background: #bb6707;
+    box-shadow: 0 25px 38px rgba(204, 112, 8, 0.3), 0 15px 12px rgba(190, 95, 5, 0.22);
+}
+
+.new div:nth-child(1):hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.new div:nth-child(2) {
+    background: #b8144b;
+    box-shadow: 0 25px 38px rgba(197, 10, 41, 0.3), 0 15px 12px rgba(179, 6, 6, 0.22);
+}
+
+.new div:nth-child(2):hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.new div:nth-child(3) {
+    background: #7a540d;
+    box-shadow: 0 25px 38px rgba(187, 169, 5, 0.3), 0 15px 12px rgba(185, 152, 6, 0.22);
+}
+
+.new div:nth-child(3):hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.unfoundTitle {
+    text-align: center;
+    color: green;
+    font-weight: bold;
+}
